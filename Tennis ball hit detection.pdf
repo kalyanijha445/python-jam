@@ -1,0 +1,47 @@
+Python Jam Competition: Ball Hit Detection
+
+Project Overview:
+
+In this project, I developed a Python-based system to detect when a tennis ball hits a framed area on a wall, visualizing the impact on a virtual screen. The system utilizes a webcam to capture the framed area and displays the detected hit on a virtual 16:9 white screen on a computer.
+
+Core Requirements:
+
+Frame: A 16:9 framed area created using colored tape.
+
+* Camera: A webcam captures the framed area.
+
+* Virtual Screen: A 16:9 white screen displayed on the computer.
+
+Hit Detection: Detects when the ball hits within the framed area and identifies the impact point. *
+
+* Visualization: Displays a black circle at the detected hit point on the virtual screen.
+
+* Calibration: Maps the physical frame accurately to the virtual screen.
+
+* Lighting Robustness: Ensures functionality in various lighting conditions.
+
+Deliverables:
+
+We have submitted a Python script along with documentation of our approach. The script showcases accurate hit detection with proper calibration and responsiveness under varying lighting conditions.
+
+Evaluation Criteria:
+
+* Hit detection accuracy
+
+* Noise reduction techniques
+
+* Aspect ratio maintenance
+
+* Responsiveness to hits
+
+*Lighting robustness
+
+* Scalability of the solution
+
+*Code quality and modularity
+
+* Creativity in the approach
+
+Additional Notes:
+
+We have utilized Python libraries such as OpenCV for image processing, ensuring accurate hit detection and noise reduction. The code follows a modular approach, allowing flexibility and scalability.
